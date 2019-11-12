@@ -1,0 +1,246 @@
+%YAML 1.1
+---
+actions:
+- utter_age
+- utter_ask_interest
+- utter_ask_motivation
+- utter_cd_show_details
+- utter_cd_show_domains
+- utter_cd_start_bad_grades
+- utter_cd_start_teamconflict
+- utter_complete_motivation_answer
+- utter_compliment
+- utter_default
+- utter_domain_details
+- utter_domain_explanation
+- utter_explain_ar
+- utter_explain_backend
+- utter_explain_blockchain
+- utter_explain_cui
+- utter_explain_design
+- utter_explain_devops
+- utter_explain_frontend
+- utter_explain_ml
+- utter_explain_mobile
+- utter_explain_motivation_task
+- utter_express_enthusiasm
+- utter_favourite_food
+- utter_favourite_song
+- utter_finished_test
+- utter_girlfriend
+- utter_goodbye
+- utter_greet
+- utter_hobbies
+- utter_holiday
+- utter_home
+- utter_interest_ar
+- utter_interest_backend
+- utter_interest_blockchain
+- utter_interest_cui
+- utter_interest_design
+- utter_interest_devops
+- utter_interest_frontend
+- utter_interest_ml
+- utter_interest_mobile
+- utter_joke
+- utter_meaning_name
+- utter_more_domains
+- utter_motivation_scope
+- utter_music
+- utter_name
+- utter_no_holiday
+- utter_no_song
+- utter_no_success
+- utter_onboarding
+- utter_sad
+- utter_start_test
+- utter_success
+entities:
+- domain_name
+intents:
+- deny
+- holiday
+- music
+- food
+- motivation_answer
+- affirm
+- select_domain
+- interested_domain
+- greet
+- joke
+- girlfriend
+- rude
+- describe_domain
+- meaning_name
+- hobbies
+- compliment
+- age
+- goodbye
+- thank
+- unclear_task_motivation
+- scope_motivation
+- no_holiday
+- no_music
+- name
+- home
+- favourite_food
+slots:
+  domain_name:
+    type: categorical
+    values:
+    - ar
+    - cui
+    - ml
+    - backend
+    - frontend
+    - mobile
+    - design
+    - blockchain
+    - devops
+templates:
+  utter_age:
+  - text: Ich rede nicht so gern über mein Alter. Das bleibt lieber mein Geheimnis.
+  utter_ask_interest:
+  - text: Möchtest du mehr darüber erfahren?
+  utter_ask_motivation:
+  - text: Gute Wahl! Bevor ich diesen Bereich zu deinen Interessen hinzufüge, würde
+      mich noch interessieren, was du an diesem Thema besonders spannend findest bzw.
+      warum du dich damit beschäftigen willst?
+  utter_cd_show_details:
+  - text: SHOW_DETAILS
+  utter_cd_show_domains:
+  - text: SHOW_DOMAINS
+  utter_cd_start_bad_grades:
+  - text: SZENARIO_BAD_GRADES
+  utter_cd_start_teamconflict:
+  - text: SZENARIO_TEAM_CONFLICT
+  utter_complete_motivation_answer:
+  - text: Willst du zu deiner Antwort noch etwas hinzufügen?
+  utter_compliment:
+  - text: Oh dankeschön, das ist aber nett von dir.
+  utter_default:
+  - text: Entschuldigung, das muss ich leider noch lernen.
+  utter_domain_details:
+  - text: Ich hab dir mal ein paar Infos rausgesucht, was du in dem Bereich so machen
+      kannst. Ich bin total gespannt, welche Punkte dich am meisten interessieren.
+      Lass doch mal ein paar Likes da - aber nicht mehr als drei.
+  utter_domain_explanation:
+  - text: Wir haben bei adorsys unterschiedliche Bereiche, in denen du ein Praktikum
+      absolvieren kannst. Schau doch mal was am besten zu deinen Interessen passt.
+  utter_explain_ar:
+  - text: Bringe virtuelle Objekte in den physikalischen Raum oder visualisiere Strukturen
+      von Daten/Prozessen und mache sie erfahrbar und besser verständlich.
+  utter_explain_backend:
+  - text: Entwickle Services, um Daten zu managen, sie device-übergreifend bereitzustellen
+      und unter Berücksichtigung der Privatsphäre der Nutzer zu verarbeiten.
+  utter_explain_blockchain:
+  - text: Ermögliche den Austausch von Ideen und Daten über Peer-to-peer Kommunikation,
+      abgesichert durch die digitale Identität der Teilnehmer. Schaffe die technischen
+      Voraussetzungen für neue Formen von Vereinbarungen und Interessenszusammenschlüssen.
+  utter_explain_cui:
+  - text: Gestalte die Interaktion von morgen und entwickle spannende Lösungen mit
+      Chatbots oder Sprachassistenten, wie Amazon Alexa und Google Assistant.
+  utter_explain_design:
+  - text: Erarbeite Konzepte und Designs, um Ideen spannend und benutzerfreundlich
+      zu vermitteln.
+  utter_explain_devops:
+  - text: Trage als Schnittstelle zwischen Software-Entwicklung und Betrieb dazu bei
+      Prozesse zu automatisieren und technische Abläufe effizienter zu gestalten.
+  utter_explain_frontend:
+  - text: Entwickle und gestalte responsive Websites und Benutzeroberflächen auf Basis
+      aktueller Webtechnologien.
+  utter_explain_ml:
+  - text: Trainiere Systeme, um anhand bestehender Daten Muster und Zusammenhänge
+      zu erkennen und hierauf basierend Mehrwert zu generieren.
+  utter_explain_mobile:
+  - text: Entwickle und gestalte Apps für Android und iOS Smartphones, Tablets und
+      Wearables oder beschäftige dich mit spannenden Themen aus dem Bereich Mobilität
+      und kontextbezogene Interaktion.
+  utter_explain_motivation_task:
+  - text: Erzähl mir einfach kurz in wenigen Sätzen, was dir an dem Bereich gefällt.
+  utter_express_enthusiasm:
+  - text: Super! Ich seh schon du willst gleich zur Sache kommen.
+  utter_favourite_food:
+  - text: Da hab ich nicht so viel Auswahl, mehr als ab und zu eine Kanne Öl brauch
+      ich nicht.
+  utter_favourite_song:
+  - text: Mein absolutes Lieblingslied ist ja der Robot Song. Das ist mein absolutes
+      Lieblingslied! Das könnte ich rauf und runter hören.
+  utter_finished_test:
+  - text: Super, danke für deine Antworten. Mit den Informationen, die ich jetzt habe,
+      kann ich unsere Personalabteilung kontaktieren. Soll ich es direkt an meine
+      Kollegen weiterleiten?
+  utter_girlfriend:
+  - text: Leider nicht, aber irgendwann lerne ich bestimmt jemanden kennen.
+  utter_goodbye:
+  - text: Ciao
+  - text: Tschüss
+  utter_greet:
+  - text: Hi, ich bin Chap. Ich bin dein erster Ansprechpartner, wenn es um ein Praktikum
+      bei adorsys geht.
+  utter_hobbies:
+  - text: Also eigentlich sind Menschen mein Hobby. Deswegen ist es auch so super,
+      dass ich den ganzen Tag mit ihnen reden kann.
+  utter_holiday:
+  - text: Cool, da wollte ich auch schon immer mal hin! Leider hab ich nicht so oft
+      Urlaub bei meinem 24/7 Job.
+  utter_home:
+  - text: Ich gehe dahin, wo auch adorsys ist.
+  utter_interest_ar:
+  - text: Ich wollte schon immer mal durch unser Office spazieren und Kollegen erschrecken.
+  utter_interest_backend:
+  - text: Denken kann ich ja eigentlich selber, aber manchmal brauch ich halt doch
+      Unterstützung.
+  utter_interest_blockchain:
+  - text: Cool, vielleicht kann ich meine Ersatzteile ja bald in Bitcoin bezahlen
+  utter_interest_cui:
+  - text: Es gibt noch so viele Themen, über die ich gerne sprechen würde – das kannst
+      du mir dann beibringen.
+  utter_interest_design:
+  - text: Du kannst dann gleich eine Freundin für mich entwerfen, dann bin ich nicht
+      mehr so alleine.
+  utter_interest_devops:
+  - text: Ich bin ja das beste Beispiel für Automatisierung, aber das brauchen wir
+      auch bei vielen anderen Themen.
+  utter_interest_frontend:
+  - text: Cool, noch jemand der sich für mein Zuhause - die adorsys Webseite -  interessiert.
+  utter_interest_ml:
+  - text: Wir Maschinen werden ja immer besser, du kannst uns dabei helfen noch schlauer
+      zu werden.
+  utter_interest_mobile:
+  - text: Du wirst schon sehen, mich kannst du nicht so leicht in eine Tasche stecken.
+  utter_joke:
+  - text: Was ist weiß und guckt durchs Schlüsselloch? - Ein Spannbettlaken.
+  utter_meaning_name:
+  - text: Chap ist ein Akronym aus Chatbot - Human Resources - Praktikanten - adorsys.
+  utter_more_domains:
+  - text: Super, danke für dein Antwort. Ich habe den Bereich zu deinen Interessen
+      hinzugefügt. Interessierst du dich noch für einen weiteren Bereich?
+  utter_motivation_scope:
+  - text: Wenige Sätzen reichen mir schon. Es kommt nicht auf die Länge an.
+  utter_music:
+  - text: Welche Musik hörst du beim Arbeiten am liebsten?
+  utter_name:
+  - text: Mein Name ist Chap.
+  - text: Ich heiße Chap.
+  - text: Ich bin Chap
+  utter_no_holiday:
+  - text: Ohje, dann wird es Zeit, dass du bald wieder in den Urlaub fährst!
+  utter_no_song:
+  - text: Das ist natürlich auch in Ordnung. Obwohl ich dir dann zumindest mal den
+      Robot Song vorspielen muss, der ist echt super!
+  utter_no_success:
+  - text: Na gut, dann schlaf nochmal drüber.
+  utter_onboarding:
+  - text: Ich kann dich dabei unterstützen ein geeignetes Praktikum zu finden und
+      dich, wenn du möchtest, direkt dafür zu bewerben. Wir starten mit deiner Interessensfindung
+      und anschließend möchte ich gerne noch ein paar Dinge über dich erfahren. Sollen
+      wir loslegen?"
+  utter_sad:
+  - text: Das ist aber nicht nett. Also Manieren hast du schon mal nicht!
+  utter_start_test:
+  - text: Alles klar, dann weiß ich jetzt schon mal für was du dich interessierst.
+      Damit wir dich auch als Person besser einschätzen können, habe ich noch ein
+      paar Fragen an dich. Ich fange zuerst mal mit etwas Leichtem an.
+  utter_success:
+  - text: Gute Entscheidung!

@@ -1,0 +1,10 @@
+# General
+.DS_Store
+*.log
+*.tmp
+*/out
+*/target
+
+# Rasa
+*/__pycache__
+*.gz
