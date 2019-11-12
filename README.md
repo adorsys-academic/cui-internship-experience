@@ -1,0 +1,2 @@
+# cui-internship-experience
+In her thesis Jana Tiimus evaluated new approaches for recruiting interns and young talents via a Conversational Interface. She designed a workflow which allows students to playfully explore their interests, instead of restricting them to the mental model associated with traditional job postings. For her design she considered the needs of those in search of an internship, as well as the requirements of the HR personnel. Taking advantage of the cui-prototyping-tool she tested assumptions and evaluated her concept in short iterations.
